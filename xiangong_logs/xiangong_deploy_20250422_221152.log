@@ -1,0 +1,376 @@
+2025-04-22 22:11:52 - INFO - 日志文件: xiangong_logs\xiangong_deploy_20250422_221152.log
+2025-04-22 22:14:07 - INFO - 
+===== 仙宫云部署进程启动 =====
+2025-04-22 22:14:07 - INFO - 配置: {
+  "gpu_model": "NVIDIA GeForce RTX 4090",
+  "gpu_count": 1,
+  "data_center_id": 1,
+  "image": "0a48dcdc-2ec1-478d-aed3-e075ebab7917",
+  "image_type": "private",
+  "storage": false,
+  "name": "1115"
+}
+2025-04-22 22:14:07 - INFO - 
+===== 请求详情 =====
+2025-04-22 22:14:07 - INFO - URL: https://api.xiangongyun.com/open/instance/deploy
+2025-04-22 22:14:07 - INFO - 请求头: {
+  "Content-Type": "application/json",
+  "Authorization": "Bearer r271r6bhhbajf6utt5djo5wesq9vd4g1sqa1pjyp"
+}
+2025-04-22 22:14:07 - INFO - 请求体: {
+  "gpu_model": "NVIDIA GeForce RTX 4090",
+  "gpu_count": 1,
+  "data_center_id": 1,
+  "image": "0a48dcdc-2ec1-478d-aed3-e075ebab7917",
+  "image_type": "private",
+  "storage": false,
+  "name": "1115"
+}
+2025-04-22 22:14:07 - INFO - 
+===== 响应详情 =====
+2025-04-22 22:14:07 - INFO - 状态码: 200
+2025-04-22 22:14:07 - INFO - 响应头: {'Date': 'Tue, 22 Apr 2025 14:14:09 GMT', 'Content-Type': 'application/json', 'Content-Length': '53', 'Connection': 'keep-alive', 'Server': 'XGC'}
+2025-04-22 22:14:07 - INFO - 响应体: {
+  "code": 1000,
+  "msg": "可用GPU不足",
+  "success": false
+}
+2025-04-22 22:14:07 - INFO - 
+部署失败 (尝试 1/10): 未知错误
+2025-04-22 22:14:07 - INFO - 状态码: 200
+2025-04-22 22:14:07 - INFO - 完整响应: {
+  "code": 1000,
+  "msg": "可用GPU不足",
+  "success": false
+}
+2025-04-22 22:14:07 - INFO - 等待 1 秒后重试...
+2025-04-22 22:14:08 - INFO - 
+尝试 #2/10
+2025-04-22 22:14:08 - INFO - 
+===== 请求详情 =====
+2025-04-22 22:14:08 - INFO - URL: https://api.xiangongyun.com/open/instance/deploy
+2025-04-22 22:14:08 - INFO - 请求头: {
+  "Content-Type": "application/json",
+  "Authorization": "Bearer r271r6bhhbajf6utt5djo5wesq9vd4g1sqa1pjyp"
+}
+2025-04-22 22:14:08 - INFO - 请求体: {
+  "gpu_model": "NVIDIA GeForce RTX 4090",
+  "gpu_count": 1,
+  "data_center_id": 1,
+  "image": "0a48dcdc-2ec1-478d-aed3-e075ebab7917",
+  "image_type": "private",
+  "storage": false,
+  "name": "1115"
+}
+2025-04-22 22:14:08 - INFO - 
+===== 响应详情 =====
+2025-04-22 22:14:08 - INFO - 状态码: 200
+2025-04-22 22:14:08 - INFO - 响应头: {'Date': 'Tue, 22 Apr 2025 14:14:10 GMT', 'Content-Type': 'application/json', 'Content-Length': '53', 'Connection': 'keep-alive', 'Server': 'XGC'}
+2025-04-22 22:14:08 - INFO - 响应体: {
+  "code": 1000,
+  "msg": "可用GPU不足",
+  "success": false
+}
+2025-04-22 22:14:08 - INFO - 
+部署失败 (尝试 2/10): 未知错误
+2025-04-22 22:14:08 - INFO - 状态码: 200
+2025-04-22 22:14:08 - INFO - 完整响应: {
+  "code": 1000,
+  "msg": "可用GPU不足",
+  "success": false
+}
+2025-04-22 22:14:08 - INFO - 等待 1 秒后重试...
+2025-04-22 22:14:09 - INFO - 
+尝试 #3/10
+2025-04-22 22:14:09 - INFO - 
+===== 请求详情 =====
+2025-04-22 22:14:09 - INFO - URL: https://api.xiangongyun.com/open/instance/deploy
+2025-04-22 22:14:09 - INFO - 请求头: {
+  "Content-Type": "application/json",
+  "Authorization": "Bearer r271r6bhhbajf6utt5djo5wesq9vd4g1sqa1pjyp"
+}
+2025-04-22 22:14:09 - INFO - 请求体: {
+  "gpu_model": "NVIDIA GeForce RTX 4090",
+  "gpu_count": 1,
+  "data_center_id": 1,
+  "image": "0a48dcdc-2ec1-478d-aed3-e075ebab7917",
+  "image_type": "private",
+  "storage": false,
+  "name": "1115"
+}
+2025-04-22 22:14:09 - INFO - 
+===== 响应详情 =====
+2025-04-22 22:14:09 - INFO - 状态码: 200
+2025-04-22 22:14:09 - INFO - 响应头: {'Date': 'Tue, 22 Apr 2025 14:14:11 GMT', 'Content-Type': 'application/json', 'Content-Length': '53', 'Connection': 'keep-alive', 'Server': 'XGC'}
+2025-04-22 22:14:09 - INFO - 响应体: {
+  "code": 1000,
+  "msg": "可用GPU不足",
+  "success": false
+}
+2025-04-22 22:14:09 - INFO - 
+部署失败 (尝试 3/10): 未知错误
+2025-04-22 22:14:09 - INFO - 状态码: 200
+2025-04-22 22:14:09 - INFO - 完整响应: {
+  "code": 1000,
+  "msg": "可用GPU不足",
+  "success": false
+}
+2025-04-22 22:14:09 - INFO - 等待 1 秒后重试...
+2025-04-22 22:14:10 - INFO - 
+尝试 #4/10
+2025-04-22 22:14:10 - INFO - 
+===== 请求详情 =====
+2025-04-22 22:14:10 - INFO - URL: https://api.xiangongyun.com/open/instance/deploy
+2025-04-22 22:14:10 - INFO - 请求头: {
+  "Content-Type": "application/json",
+  "Authorization": "Bearer r271r6bhhbajf6utt5djo5wesq9vd4g1sqa1pjyp"
+}
+2025-04-22 22:14:10 - INFO - 请求体: {
+  "gpu_model": "NVIDIA GeForce RTX 4090",
+  "gpu_count": 1,
+  "data_center_id": 1,
+  "image": "0a48dcdc-2ec1-478d-aed3-e075ebab7917",
+  "image_type": "private",
+  "storage": false,
+  "name": "1115"
+}
+2025-04-22 22:14:10 - INFO - 
+===== 响应详情 =====
+2025-04-22 22:14:10 - INFO - 状态码: 200
+2025-04-22 22:14:10 - INFO - 响应头: {'Date': 'Tue, 22 Apr 2025 14:14:12 GMT', 'Content-Type': 'application/json', 'Content-Length': '53', 'Connection': 'keep-alive', 'Server': 'XGC'}
+2025-04-22 22:14:10 - INFO - 响应体: {
+  "code": 1000,
+  "msg": "可用GPU不足",
+  "success": false
+}
+2025-04-22 22:14:10 - INFO - 
+部署失败 (尝试 4/10): 未知错误
+2025-04-22 22:14:10 - INFO - 状态码: 200
+2025-04-22 22:14:10 - INFO - 完整响应: {
+  "code": 1000,
+  "msg": "可用GPU不足",
+  "success": false
+}
+2025-04-22 22:14:10 - INFO - 等待 1 秒后重试...
+2025-04-22 22:14:11 - INFO - 
+尝试 #5/10
+2025-04-22 22:14:11 - INFO - 
+===== 请求详情 =====
+2025-04-22 22:14:11 - INFO - URL: https://api.xiangongyun.com/open/instance/deploy
+2025-04-22 22:14:11 - INFO - 请求头: {
+  "Content-Type": "application/json",
+  "Authorization": "Bearer r271r6bhhbajf6utt5djo5wesq9vd4g1sqa1pjyp"
+}
+2025-04-22 22:14:11 - INFO - 请求体: {
+  "gpu_model": "NVIDIA GeForce RTX 4090",
+  "gpu_count": 1,
+  "data_center_id": 1,
+  "image": "0a48dcdc-2ec1-478d-aed3-e075ebab7917",
+  "image_type": "private",
+  "storage": false,
+  "name": "1115"
+}
+2025-04-22 22:14:12 - INFO - 
+===== 响应详情 =====
+2025-04-22 22:14:12 - INFO - 状态码: 200
+2025-04-22 22:14:12 - INFO - 响应头: {'Date': 'Tue, 22 Apr 2025 14:14:13 GMT', 'Content-Type': 'application/json', 'Content-Length': '53', 'Connection': 'keep-alive', 'Server': 'XGC'}
+2025-04-22 22:14:12 - INFO - 响应体: {
+  "code": 1000,
+  "msg": "可用GPU不足",
+  "success": false
+}
+2025-04-22 22:14:12 - INFO - 
+部署失败 (尝试 5/10): 未知错误
+2025-04-22 22:14:12 - INFO - 状态码: 200
+2025-04-22 22:14:12 - INFO - 完整响应: {
+  "code": 1000,
+  "msg": "可用GPU不足",
+  "success": false
+}
+2025-04-22 22:14:12 - INFO - 等待 1 秒后重试...
+2025-04-22 22:14:13 - INFO - 
+尝试 #6/10
+2025-04-22 22:14:13 - INFO - 
+===== 请求详情 =====
+2025-04-22 22:14:13 - INFO - URL: https://api.xiangongyun.com/open/instance/deploy
+2025-04-22 22:14:13 - INFO - 请求头: {
+  "Content-Type": "application/json",
+  "Authorization": "Bearer r271r6bhhbajf6utt5djo5wesq9vd4g1sqa1pjyp"
+}
+2025-04-22 22:14:13 - INFO - 请求体: {
+  "gpu_model": "NVIDIA GeForce RTX 4090",
+  "gpu_count": 1,
+  "data_center_id": 1,
+  "image": "0a48dcdc-2ec1-478d-aed3-e075ebab7917",
+  "image_type": "private",
+  "storage": false,
+  "name": "1115"
+}
+2025-04-22 22:14:13 - INFO - 
+===== 响应详情 =====
+2025-04-22 22:14:13 - INFO - 状态码: 200
+2025-04-22 22:14:13 - INFO - 响应头: {'Date': 'Tue, 22 Apr 2025 14:14:14 GMT', 'Content-Type': 'application/json', 'Content-Length': '53', 'Connection': 'keep-alive', 'Server': 'XGC'}
+2025-04-22 22:14:13 - INFO - 响应体: {
+  "code": 1000,
+  "msg": "可用GPU不足",
+  "success": false
+}
+2025-04-22 22:14:13 - INFO - 
+部署失败 (尝试 6/10): 未知错误
+2025-04-22 22:14:13 - INFO - 状态码: 200
+2025-04-22 22:14:13 - INFO - 完整响应: {
+  "code": 1000,
+  "msg": "可用GPU不足",
+  "success": false
+}
+2025-04-22 22:14:13 - INFO - 等待 1 秒后重试...
+2025-04-22 22:14:14 - INFO - 
+尝试 #7/10
+2025-04-22 22:14:14 - INFO - 
+===== 请求详情 =====
+2025-04-22 22:14:14 - INFO - URL: https://api.xiangongyun.com/open/instance/deploy
+2025-04-22 22:14:14 - INFO - 请求头: {
+  "Content-Type": "application/json",
+  "Authorization": "Bearer r271r6bhhbajf6utt5djo5wesq9vd4g1sqa1pjyp"
+}
+2025-04-22 22:14:14 - INFO - 请求体: {
+  "gpu_model": "NVIDIA GeForce RTX 4090",
+  "gpu_count": 1,
+  "data_center_id": 1,
+  "image": "0a48dcdc-2ec1-478d-aed3-e075ebab7917",
+  "image_type": "private",
+  "storage": false,
+  "name": "1115"
+}
+2025-04-22 22:14:14 - INFO - 
+===== 响应详情 =====
+2025-04-22 22:14:14 - INFO - 状态码: 200
+2025-04-22 22:14:14 - INFO - 响应头: {'Date': 'Tue, 22 Apr 2025 14:14:15 GMT', 'Content-Type': 'application/json', 'Content-Length': '53', 'Connection': 'keep-alive', 'Server': 'XGC'}
+2025-04-22 22:14:14 - INFO - 响应体: {
+  "code": 1000,
+  "msg": "可用GPU不足",
+  "success": false
+}
+2025-04-22 22:14:14 - INFO - 
+部署失败 (尝试 7/10): 未知错误
+2025-04-22 22:14:14 - INFO - 状态码: 200
+2025-04-22 22:14:14 - INFO - 完整响应: {
+  "code": 1000,
+  "msg": "可用GPU不足",
+  "success": false
+}
+2025-04-22 22:14:14 - INFO - 等待 1 秒后重试...
+2025-04-22 22:14:15 - INFO - 
+尝试 #8/10
+2025-04-22 22:14:15 - INFO - 
+===== 请求详情 =====
+2025-04-22 22:14:15 - INFO - URL: https://api.xiangongyun.com/open/instance/deploy
+2025-04-22 22:14:15 - INFO - 请求头: {
+  "Content-Type": "application/json",
+  "Authorization": "Bearer r271r6bhhbajf6utt5djo5wesq9vd4g1sqa1pjyp"
+}
+2025-04-22 22:14:15 - INFO - 请求体: {
+  "gpu_model": "NVIDIA GeForce RTX 4090",
+  "gpu_count": 1,
+  "data_center_id": 1,
+  "image": "0a48dcdc-2ec1-478d-aed3-e075ebab7917",
+  "image_type": "private",
+  "storage": false,
+  "name": "1115"
+}
+2025-04-22 22:14:15 - INFO - 
+===== 响应详情 =====
+2025-04-22 22:14:15 - INFO - 状态码: 200
+2025-04-22 22:14:15 - INFO - 响应头: {'Date': 'Tue, 22 Apr 2025 14:14:17 GMT', 'Content-Type': 'application/json', 'Content-Length': '53', 'Connection': 'keep-alive', 'Server': 'XGC'}
+2025-04-22 22:14:15 - INFO - 响应体: {
+  "code": 1000,
+  "msg": "可用GPU不足",
+  "success": false
+}
+2025-04-22 22:14:15 - INFO - 
+部署失败 (尝试 8/10): 未知错误
+2025-04-22 22:14:15 - INFO - 状态码: 200
+2025-04-22 22:14:15 - INFO - 完整响应: {
+  "code": 1000,
+  "msg": "可用GPU不足",
+  "success": false
+}
+2025-04-22 22:14:15 - INFO - 等待 1 秒后重试...
+2025-04-22 22:14:16 - INFO - 
+尝试 #9/10
+2025-04-22 22:14:16 - INFO - 
+===== 请求详情 =====
+2025-04-22 22:14:16 - INFO - URL: https://api.xiangongyun.com/open/instance/deploy
+2025-04-22 22:14:16 - INFO - 请求头: {
+  "Content-Type": "application/json",
+  "Authorization": "Bearer r271r6bhhbajf6utt5djo5wesq9vd4g1sqa1pjyp"
+}
+2025-04-22 22:14:16 - INFO - 请求体: {
+  "gpu_model": "NVIDIA GeForce RTX 4090",
+  "gpu_count": 1,
+  "data_center_id": 1,
+  "image": "0a48dcdc-2ec1-478d-aed3-e075ebab7917",
+  "image_type": "private",
+  "storage": false,
+  "name": "1115"
+}
+2025-04-22 22:14:16 - INFO - 
+===== 响应详情 =====
+2025-04-22 22:14:16 - INFO - 状态码: 200
+2025-04-22 22:14:16 - INFO - 响应头: {'Date': 'Tue, 22 Apr 2025 14:14:18 GMT', 'Content-Type': 'application/json', 'Content-Length': '53', 'Connection': 'keep-alive', 'Server': 'XGC'}
+2025-04-22 22:14:16 - INFO - 响应体: {
+  "code": 1000,
+  "msg": "可用GPU不足",
+  "success": false
+}
+2025-04-22 22:14:16 - INFO - 
+部署失败 (尝试 9/10): 未知错误
+2025-04-22 22:14:16 - INFO - 状态码: 200
+2025-04-22 22:14:16 - INFO - 完整响应: {
+  "code": 1000,
+  "msg": "可用GPU不足",
+  "success": false
+}
+2025-04-22 22:14:16 - INFO - 等待 1 秒后重试...
+2025-04-22 22:14:17 - INFO - 
+尝试 #10/10
+2025-04-22 22:14:17 - INFO - 
+===== 请求详情 =====
+2025-04-22 22:14:17 - INFO - URL: https://api.xiangongyun.com/open/instance/deploy
+2025-04-22 22:14:17 - INFO - 请求头: {
+  "Content-Type": "application/json",
+  "Authorization": "Bearer r271r6bhhbajf6utt5djo5wesq9vd4g1sqa1pjyp"
+}
+2025-04-22 22:14:17 - INFO - 请求体: {
+  "gpu_model": "NVIDIA GeForce RTX 4090",
+  "gpu_count": 1,
+  "data_center_id": 1,
+  "image": "0a48dcdc-2ec1-478d-aed3-e075ebab7917",
+  "image_type": "private",
+  "storage": false,
+  "name": "1115"
+}
+2025-04-22 22:14:17 - INFO - 
+===== 响应详情 =====
+2025-04-22 22:14:17 - INFO - 状态码: 200
+2025-04-22 22:14:17 - INFO - 响应头: {'Date': 'Tue, 22 Apr 2025 14:14:19 GMT', 'Content-Type': 'application/json', 'Content-Length': '53', 'Connection': 'keep-alive', 'Server': 'XGC'}
+2025-04-22 22:14:17 - INFO - 响应体: {
+  "code": 1000,
+  "msg": "可用GPU不足",
+  "success": false
+}
+2025-04-22 22:14:17 - INFO - 
+部署失败 (尝试 10/10): 未知错误
+2025-04-22 22:14:17 - INFO - 状态码: 200
+2025-04-22 22:14:17 - INFO - 完整响应: {
+  "code": 1000,
+  "msg": "可用GPU不足",
+  "success": false
+}
+2025-04-22 22:14:17 - INFO - 等待 1 秒后重试...
+2025-04-22 22:14:18 - INFO - 
+达到最大重试次数 10，部署终止
+2025-04-22 22:14:18 - INFO - 
+===== 部署进程终止 =====
+2025-04-22 22:14:18 - INFO - 
+部署失败或已达到最大重试次数。

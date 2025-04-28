@@ -78,7 +78,3 @@ By using this code, you accept the above disclaimer. If you do not agree, please
 1. This code is limited to non-commercial use only. Without explicit written permission from the author, it is prohibited to use this code for any commercial purpose.
 2. The author is not responsible for the consequences of using this code. Users shall bear all risks associated with using this code.
 3. When distributing or modifying this code, this disclaimer and license terms must be retained.
-
-## Notes
-- Keep your API key secure
-- Deploying instances will incur charges on your Xiangong Cloud account

@@ -82,4 +82,3 @@ By using this code, you accept the above disclaimer. If you do not agree, please
 ## Notes
 - Keep your API key secure
 - Deploying instances will incur charges on your Xiangong Cloud account
-- Set reasonable retry counts and intervals to avoid API rate limiting
